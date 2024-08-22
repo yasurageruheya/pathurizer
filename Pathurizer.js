@@ -20,7 +20,7 @@ class Pathurizer
 	constructor(url, directorySeparator="")
 	{
 		/** @type {"\\"|"/"|""} */
-		this.directorySeparator = "";
+		this.directorySeparator = directorySeparator;
 
 		if(!directorySeparator)
 		{
